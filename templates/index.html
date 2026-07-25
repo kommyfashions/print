@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF SKU Sorter (Local)</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        button {
+            padding: 6px 14px;
+            font-size: 14px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 12px;
+            min-width: 400px;
+        }
+
+        th, td {
+            padding: 6px 10px;
+            border: 1px solid #aaa;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        hr {
+            margin: 25px 0;
+        }
+
+        #progressSection {
+            display: none;
+            margin-top: 20px;
+            width: 400px;
+        }
+
+        #progressBar {
+            width: 100%;
+            height: 18px;
+        }
+
+        #progressText {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        function startProcessing() {
+            document.getElementById("processBtn").disabled = true;
+            document.getElementById("progressSection").style.display = "block";
+
+            let percent = 0;
+            const progressBar = document.getElementById("progressBar");
+            const progressText = document.getElementById("progressText");
+
+            const interval = setInterval(() => {
+                if (percent < 90) {
+                    percent += 2;
+                    progressBar.value = percent;
+                    progressText.innerText = percent + "%";
+                }
+            }, 400);
+
+            document.getElementById("uploadForm").addEventListener("submit", () => {
+                clearInterval(interval);
+                progressBar.value = 100;
+                progressText.innerText = "100%";
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+<h2>PDF SKU Sorter (Local)</h2>
+
+<form id="uploadForm" method="post" enctype="multipart/form-data" action="/process" onsubmit="startProcessing()">
+    <input type="file" name="pdfs" multiple required>
+    <br><br>
+    <button id="processBtn" type="submit">PROCESS</button>
+</form>
+
+<div id="progressSection">
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="progressText">0%</div>
+</div>
+
+{% if outputs %}
+<hr>
+<h3>Downloads – {{ outputs.run_id }}</h3>
+<ul>
+    {% for file in outputs.files %}
+        <li>
+            <a href="/download/{{ outputs.run_id }}/{{ file.name }}">{{ file.name }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if courier_today %}
+<hr>
+<h3>Courier Order Summary (Today)</h3>
+<table>
+    <tr>
+        <th>Courier</th>
+        <th>Orders</th>
+    </tr>
+    {% for courier, count in courier_today.items() %}
+    <tr>
+        <td>{{ courier }}</td>
+        <td>{{ count }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endif %}
+
+{% if summary %}
+<hr>
+<h3>SKU Order Summary</h3>
+<table>
+    <tr>
+        <th>SKU</th>
+        <th>Today</th>
+        <th>Last 30 Days</th>
+    </tr>
+    {% for sku in summary %}
+    <tr>
+        <td>{{ sku }}</td>
+        <td>{{ today.get(sku, 0) }}</td>
+        <td>{{ last_30.get(sku, 0) }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endif %}
+
+</body>
+</html>

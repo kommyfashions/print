@@ -1,0 +1,9 @@
+{
+  "run_id": "RUN_20260107_102601",
+  "date": "2026-01-07",
+  "couriers": {
+    "Valmo": 365,
+    "Shadowfax": 88,
+    "Delhivery": 62
+  }
+}

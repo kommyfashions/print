@@ -1,0 +1,133 @@
+PDF SKU Sorter – User Instruction Guide
+
+1. WHAT IS THIS TOOL?
+This is a local (offline) application used to process order label PDFs.
+It sorts orders by SKU, groups high-volume SKUs, and shows daily order statistics.
+
+Key features:
+- Sorts PDF labels by SKU
+- Groups high-volume SKUs (Tier-1) for easier printing
+- Separates low-volume SKUs (Tier-2)
+- Shows today’s SKU orders and last 30 days totals
+- Shows courier-wise orders for today
+- Works fully offline (no internet required)
+
+--------------------------------------------------
+
+2. HOW TO START THE APPLICATION
+
+1. Go to the project folder.
+2. Double-click the file:
+   run_app.bat
+
+3. A black command window will open.
+   DO NOT close this window.
+
+4. Your browser will open automatically at:
+   http://localhost:5000
+
+--------------------------------------------------
+
+3. DAILY USAGE – STEP BY STEP
+
+1. Click “Choose Files”
+2. Select one or more PDF label files
+3. Click “PROCESS”
+4. Wait for the progress bar to reach 100%
+5. Download the output PDFs
+
+--------------------------------------------------
+
+4. OUTPUT FILES EXPLAINED
+
+After processing, three PDF files are created:
+
+1. TIER1_HIGH_VOLUME.pdf
+   - Contains SKUs with high order count
+   - Last page of each SKU is flipped upside-down
+   - Used as a visual separator during packing
+
+2. TIER2_LOW_VOLUME.pdf
+   - Contains low-volume SKUs mixed together
+   - Print after Tier-1 is complete
+
+3. MASTER_PRINT.pdf
+   - Complete backup of all labels
+   - Normally not used for daily printing
+
+--------------------------------------------------
+
+5. PRINTING INSTRUCTIONS
+
+- Always print Tier-1 first
+- When you see an upside-down page:
+  - Stop printing
+  - Finish packing that SKU
+  - Resume printing for the next SKU
+
+--------------------------------------------------
+
+6. DASHBOARD INFORMATION
+
+Courier Order Summary (Today):
+- Shows total orders per courier for today only
+
+SKU Order Summary:
+- Today: orders processed today
+- Last 30 Days: rolling 30-day total
+
+Rule:
+1 page = 1 order
+
+--------------------------------------------------
+
+7. CONFIGURATION FILES (IMPORTANT)
+
+1. data/sku_normalization.xlsx
+   - Used to normalize SKU names
+   - Multiple RawSKU values can map to one NormalizedSKU
+   - Editable anytime
+
+2. data/courier_config.xlsx
+   - Used to detect courier names
+   - Columns:
+     CourierName | MatchText
+   - UNKNOWN courier means missing configuration
+
+--------------------------------------------------
+
+8. FOLDER STRUCTURE
+
+uploads/
+- Temporary uploaded PDF files
+
+outputs/
+- Generated PDFs for each run
+
+data/sku_stats/
+- SKU order history (30 days)
+
+data/courier_stats/
+- Courier order history (today)
+
+--------------------------------------------------
+
+9. COMMON ISSUES & FIXES
+
+Problem: App does not open
+Fix:
+- Ensure Python is installed
+- Run run_app.bat again
+
+Problem: Progress bar not visible
+Fix:
+- Restart app
+- Refresh browser (Ctrl + Shift + R)
+
+Problem: Courier shows UNKNOWN
+Fix:
+- Add courier in courier_config.xlsx
+
+--------------------------------------------------
+
+END OF DOCUMENT

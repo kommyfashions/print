@@ -1,0 +1,879 @@
+{
+  "2026-01-10": {
+    "Valmo": 304,
+    "Delhivery": 62,
+    "Shadowfax": 88
+  },
+  "2026-01-12": {
+    "Delhivery": 59,
+    "Shadowfax": 114,
+    "Valmo": 430
+  },
+  "2026-01-13": {
+    "Valmo": 214,
+    "Shadowfax": 59,
+    "Delhivery": 48
+  },
+  "2026-01-14": {
+    "Shadowfax": 40,
+    "Valmo": 180,
+    "Delhivery": 30
+  },
+  "2026-01-15": {
+    "Valmo": 159,
+    "Shadowfax": 40,
+    "Delhivery": 37
+  },
+  "2026-01-16": {
+    "Delhivery": 38,
+    "Valmo": 125,
+    "Shadowfax": 44
+  },
+  "2026-01-17": {
+    "Delhivery": 24,
+    "Valmo": 145,
+    "Shadowfax": 83,
+    "UNKNOWN": 36
+  },
+  "2026-01-19": {
+    "Shadowfax": 138,
+    "Valmo": 655,
+    "Delhivery": 114,
+    "UNKNOWN": 27
+  },
+  "2026-01-20": {
+    "Valmo": 105,
+    "Shadowfax": 22,
+    "Delhivery": 36,
+    "UNKNOWN": 8
+  },
+  "2026-01-21": {
+    "Delhivery": 34,
+    "Shadowfax": 21,
+    "UNKNOWN": 9,
+    "Valmo": 96
+  },
+  "2026-01-22": {
+    "Valmo": 93,
+    "Shadowfax": 28,
+    "Delhivery": 25,
+    "UNKNOWN": 7
+  },
+  "2026-01-24": {
+    "Valmo": 174,
+    "Delhivery": 51,
+    "Shadowfax": 57,
+    "UNKNOWN": 13
+  },
+  "2026-01-26": {
+    "Shadowfax": 49,
+    "Delhivery": 39,
+    "Valmo": 164,
+    "UNKNOWN": 16
+  },
+  "2026-01-27": {
+    "Valmo": 112,
+    "Delhivery": 24,
+    "Shadowfax": 31,
+    "UNKNOWN": 7
+  },
+  "2026-01-28": {
+    "Delhivery": 39,
+    "Valmo": 144,
+    "Shadowfax": 40,
+    "UNKNOWN": 10
+  },
+  "2026-02-02": {
+    "Delhivery": 34,
+    "Shadowfax": 70,
+    "Valmo": 174,
+    "UNKNOWN": 28
+  },
+  "2026-02-03": {
+    "Delhivery": 23,
+    "Valmo": 101,
+    "UNKNOWN": 6,
+    "Shadowfax": 12
+  },
+  "2026-02-04": {
+    "Delhivery": 15,
+    "Shadowfax": 22,
+    "Valmo": 67,
+    "UNKNOWN": 6
+  },
+  "2026-02-05": {
+    "Shadowfax": 19,
+    "Delhivery": 25,
+    "Valmo": 90,
+    "UNKNOWN": 10
+  },
+  "2026-02-06": {
+    "Shadowfax": 32,
+    "Valmo": 102,
+    "Delhivery": 14,
+    "UNKNOWN": 16
+  },
+  "2026-02-07": {
+    "Delhivery": 17,
+    "UNKNOWN": 6,
+    "Shadowfax": 29,
+    "Valmo": 95
+  },
+  "2026-02-09": {
+    "Valmo": 177,
+    "Delhivery": 29,
+    "Shadowfax": 37,
+    "UNKNOWN": 25
+  },
+  "2026-02-10": {
+    "Shadowfax": 36,
+    "UNKNOWN": 23,
+    "Delhivery": 17,
+    "Valmo": 90
+  },
+  "2026-02-11": {
+    "Shadowfax": 32,
+    "UNKNOWN": 9,
+    "Delhivery": 23,
+    "Valmo": 91
+  },
+  "2026-03-05": {
+    "Valmo": 122,
+    "Delhivery": 29,
+    "UNKNOWN": 22,
+    "Shadowfax": 26
+  },
+  "2026-03-08": {
+    "Valmo": 125,
+    "UNKNOWN": 19,
+    "Delhivery": 21,
+    "Shadowfax": 13,
+    "BlueDart": 1
+  },
+  "2026-03-09": {
+    "Valmo": 212,
+    "Shadowfax": 60,
+    "Delhivery": 34,
+    "UNKNOWN": 41
+  },
+  "2026-03-10": {
+    "Valmo": 142,
+    "Delhivery": 37,
+    "UNKNOWN": 19,
+    "Shadowfax": 23
+  },
+  "2026-03-11": {
+    "UNKNOWN": 19,
+    "Delhivery": 31,
+    "Valmo": 97,
+    "Shadowfax": 16
+  },
+  "2026-03-12": {
+    "UNKNOWN": 12,
+    "Valmo": 95,
+    "Delhivery": 28,
+    "Shadowfax": 16
+  },
+  "2026-03-13": {
+    "Delhivery": 71,
+    "UNKNOWN": 28,
+    "Valmo": 129,
+    "Shadowfax": 31
+  },
+  "2026-03-14": {
+    "Delhivery": 62,
+    "Valmo": 149,
+    "Shadowfax": 35,
+    "UNKNOWN": 26
+  },
+  "2026-03-15": {
+    "Valmo": 127,
+    "UNKNOWN": 21,
+    "Shadowfax": 20,
+    "Delhivery": 13
+  },
+  "2026-03-16": {
+    "Valmo": 173,
+    "UNKNOWN": 41,
+    "Delhivery": 19,
+    "Shadowfax": 36
+  },
+  "2026-03-17": {
+    "Delhivery": 80,
+    "Valmo": 82,
+    "UNKNOWN": 21,
+    "Shadowfax": 11
+  },
+  "2026-03-18": {
+    "UNKNOWN": 25,
+    "Valmo": 118,
+    "Shadowfax": 20,
+    "Delhivery": 25
+  },
+  "2026-03-19": {
+    "Valmo": 109,
+    "Delhivery": 50,
+    "UNKNOWN": 20,
+    "Shadowfax": 20
+  },
+  "2026-03-20": {
+    "Valmo": 88,
+    "Delhivery": 34,
+    "UNKNOWN": 30,
+    "Shadowfax": 38
+  },
+  "2026-03-21": {
+    "Delhivery": 34,
+    "Valmo": 77,
+    "Shadowfax": 21,
+    "UNKNOWN": 22
+  },
+  "2026-03-23": {
+    "Valmo": 149,
+    "Delhivery": 48,
+    "UNKNOWN": 28,
+    "Shadowfax": 23
+  },
+  "2026-03-24": {
+    "UNKNOWN": 14,
+    "Valmo": 77,
+    "Shadowfax": 19,
+    "Delhivery": 20
+  },
+  "2026-03-25": {
+    "Shadowfax": 31,
+    "Delhivery": 31,
+    "Valmo": 58,
+    "UNKNOWN": 16
+  },
+  "2026-03-27": {
+    "Valmo": 60,
+    "Shadowfax": 23,
+    "Delhivery": 28,
+    "UNKNOWN": 8
+  },
+  "2026-03-28": {
+    "Delhivery": 35,
+    "Shadowfax": 18,
+    "UNKNOWN": 10,
+    "Valmo": 69
+  },
+  "2026-03-30": {
+    "Valmo": 336,
+    "Delhivery": 112,
+    "UNKNOWN": 60,
+    "Shadowfax": 88
+  },
+  "2026-03-31": {
+    "Valmo": 84,
+    "Delhivery": 34,
+    "Shadowfax": 25,
+    "UNKNOWN": 20
+  },
+  "2026-04-01": {
+    "Delhivery": 28,
+    "UNKNOWN": 16,
+    "Valmo": 86,
+    "Shadowfax": 35
+  },
+  "2026-04-02": {
+    "Delhivery": 47,
+    "Valmo": 49,
+    "UNKNOWN": 22,
+    "Shadowfax": 23
+  },
+  "2026-04-04": {
+    "Delhivery": 23,
+    "Valmo": 85,
+    "UNKNOWN": 28,
+    "Shadowfax": 20
+  },
+  "2026-04-06": {
+    "UNKNOWN": 46,
+    "Delhivery": 75,
+    "Valmo": 239,
+    "Shadowfax": 65
+  },
+  "2026-04-07": {
+    "Valmo": 83,
+    "Shadowfax": 34,
+    "Delhivery": 31,
+    "UNKNOWN": 13
+  },
+  "2026-04-08": {
+    "Valmo": 92,
+    "Shadowfax": 27,
+    "Delhivery": 26,
+    "UNKNOWN": 17
+  },
+  "2026-04-09": {
+    "Delhivery": 37,
+    "Valmo": 75,
+    "UNKNOWN": 30,
+    "Shadowfax": 32
+  },
+  "2026-04-10": {
+    "Delhivery": 32,
+    "UNKNOWN": 33,
+    "Valmo": 67,
+    "Shadowfax": 33
+  },
+  "2026-04-11": {
+    "Valmo": 52,
+    "UNKNOWN": 24,
+    "Delhivery": 27,
+    "Shadowfax": 24
+  },
+  "2026-04-13": {
+    "Shadowfax": 49,
+    "Valmo": 134,
+    "Delhivery": 67,
+    "UNKNOWN": 41
+  },
+  "2026-04-14": {
+    "Delhivery": 23,
+    "Shadowfax": 24,
+    "UNKNOWN": 21,
+    "Valmo": 67
+  },
+  "2026-04-15": {
+    "Delhivery": 29,
+    "UNKNOWN": 13,
+    "Shadowfax": 26,
+    "Valmo": 52
+  },
+  "2026-04-16": {
+    "Shadowfax": 18,
+    "Delhivery": 32,
+    "Valmo": 33,
+    "UNKNOWN": 9
+  },
+  "2026-04-17": {
+    "UNKNOWN": 17,
+    "Shadowfax": 23,
+    "Valmo": 53,
+    "Delhivery": 23
+  },
+  "2026-04-18": {
+    "UNKNOWN": 15,
+    "Valmo": 56,
+    "Delhivery": 21,
+    "Shadowfax": 21
+  },
+  "2026-04-20": {
+    "Delhivery": 41,
+    "Shadowfax": 45,
+    "UNKNOWN": 27,
+    "Valmo": 81
+  },
+  "2026-04-21": {
+    "Shadowfax": 34,
+    "Valmo": 84,
+    "Delhivery": 16,
+    "UNKNOWN": 30
+  },
+  "2026-04-22": {
+    "Valmo": 38,
+    "Shadowfax": 19,
+    "Delhivery": 22,
+    "UNKNOWN": 22
+  },
+  "2026-04-23": {
+    "UNKNOWN": 18,
+    "Valmo": 60,
+    "Shadowfax": 16,
+    "Delhivery": 27
+  },
+  "2026-04-24": {
+    "UNKNOWN": 19,
+    "Delhivery": 22,
+    "Shadowfax": 16,
+    "Valmo": 37
+  },
+  "2026-04-25": {
+    "Shadowfax": 18,
+    "Valmo": 33,
+    "UNKNOWN": 13,
+    "Delhivery": 11
+  },
+  "2026-04-27": {
+    "Valmo": 68,
+    "Shadowfax": 22,
+    "Delhivery": 57,
+    "UNKNOWN": 31
+  },
+  "2026-04-28": {
+    "Valmo": 36,
+    "UNKNOWN": 19,
+    "Delhivery": 23,
+    "Shadowfax": 14
+  },
+  "2026-04-29": {
+    "UNKNOWN": 14,
+    "Valmo": 53,
+    "Delhivery": 42,
+    "Shadowfax": 17
+  },
+  "2026-04-30": {
+    "Delhivery": 33,
+    "Valmo": 43,
+    "Shadowfax": 23,
+    "UNKNOWN": 7
+  },
+  "2026-05-01": {
+    "Valmo": 62,
+    "Shadowfax": 26,
+    "Delhivery": 40,
+    "UNKNOWN": 23
+  },
+  "2026-05-02": {
+    "Valmo": 52,
+    "Shadowfax": 17,
+    "UNKNOWN": 17,
+    "Delhivery": 35
+  },
+  "2026-05-03": {
+    "Valmo": 37,
+    "Delhivery": 40,
+    "UNKNOWN": 17,
+    "Shadowfax": 14
+  },
+  "2026-05-04": {
+    "Valmo": 58,
+    "Shadowfax": 40,
+    "UNKNOWN": 27,
+    "Delhivery": 41
+  },
+  "2026-05-08": {
+    "Valmo": 50,
+    "Delhivery": 39,
+    "Shadowfax": 32,
+    "UNKNOWN": 18
+  },
+  "2026-05-10": {
+    "Delhivery": 32,
+    "Shadowfax": 35,
+    "UNKNOWN": 16,
+    "Valmo": 52
+  },
+  "2026-05-17": {
+    "Delhivery": 50,
+    "Shadowfax": 31,
+    "Valmo": 65,
+    "UNKNOWN": 26
+  },
+  "2026-05-18": {
+    "Valmo": 258,
+    "UNKNOWN": 60,
+    "Delhivery": 177,
+    "Shadowfax": 87
+  },
+  "2026-05-19": {
+    "Valmo": 92,
+    "Delhivery": 57,
+    "Shadowfax": 30,
+    "UNKNOWN": 23
+  },
+  "2026-05-20": {
+    "UNKNOWN": 26,
+    "Valmo": 106,
+    "Shadowfax": 35,
+    "Delhivery": 65
+  },
+  "2026-05-21": {
+    "Shadowfax": 46,
+    "Valmo": 130,
+    "UNKNOWN": 23,
+    "Delhivery": 82
+  },
+  "2026-05-22": {
+    "Delhivery": 75,
+    "Shadowfax": 46,
+    "Valmo": 88,
+    "UNKNOWN": 34
+  },
+  "2026-05-23": {
+    "UNKNOWN": 23,
+    "Delhivery": 39,
+    "Shadowfax": 30,
+    "Valmo": 76
+  },
+  "2026-05-24": {
+    "UNKNOWN": 87,
+    "Shadowfax": 120,
+    "Valmo": 309,
+    "Delhivery": 189
+  },
+  "2026-05-25": {
+    "Valmo": 99,
+    "Shadowfax": 44,
+    "UNKNOWN": 34,
+    "Delhivery": 77
+  },
+  "2026-05-26": {
+    "UNKNOWN": 27,
+    "Valmo": 105,
+    "Delhivery": 74,
+    "Shadowfax": 56
+  },
+  "2026-05-27": {
+    "UNKNOWN": 26,
+    "Shadowfax": 35,
+    "Delhivery": 66,
+    "Valmo": 72
+  },
+  "2026-05-28": {
+    "UNKNOWN": 26,
+    "Shadowfax": 35,
+    "Delhivery": 74,
+    "Valmo": 79
+  },
+  "2026-05-29": {
+    "Valmo": 93,
+    "Shadowfax": 42,
+    "UNKNOWN": 24,
+    "Delhivery": 100
+  },
+  "2026-05-30": {
+    "Valmo": 100,
+    "Shadowfax": 46,
+    "Delhivery": 61,
+    "UNKNOWN": 23
+  },
+  "2026-05-31": {
+    "Valmo": 81,
+    "Delhivery": 69,
+    "Shadowfax": 30,
+    "UNKNOWN": 31
+  },
+  "2026-06-01": {
+    "Valmo": 133,
+    "UNKNOWN": 20,
+    "Delhivery": 59,
+    "Shadowfax": 47
+  },
+  "2026-06-02": {
+    "Valmo": 356,
+    "Delhivery": 352,
+    "UNKNOWN": 136,
+    "Shadowfax": 176
+  },
+  "2026-06-03": {
+    "Shadowfax": 75,
+    "Valmo": 147,
+    "Delhivery": 130,
+    "UNKNOWN": 38
+  },
+  "2026-06-04": {
+    "UNKNOWN": 37,
+    "Shadowfax": 82,
+    "Valmo": 145,
+    "Delhivery": 137
+  },
+  "2026-06-05": {
+    "Valmo": 133,
+    "Delhivery": 127,
+    "Shadowfax": 97,
+    "UNKNOWN": 55
+  },
+  "2026-06-06": {
+    "Valmo": 146,
+    "Shadowfax": 99,
+    "UNKNOWN": 46,
+    "Delhivery": 112
+  },
+  "2026-06-07": {
+    "UNKNOWN": 78,
+    "Valmo": 244,
+    "Delhivery": 296,
+    "Shadowfax": 154
+  },
+  "2026-06-08": {
+    "Delhivery": 109,
+    "UNKNOWN": 42,
+    "Shadowfax": 85,
+    "Valmo": 195
+  },
+  "2026-06-09": {
+    "Delhivery": 55,
+    "Shadowfax": 83,
+    "Valmo": 101,
+    "UNKNOWN": 23
+  },
+  "2026-06-10": {
+    "Shadowfax": 62,
+    "Delhivery": 125,
+    "Valmo": 150,
+    "UNKNOWN": 35
+  },
+  "2026-06-11": {
+    "Delhivery": 98,
+    "Valmo": 135,
+    "Shadowfax": 49,
+    "UNKNOWN": 27
+  },
+  "2026-06-12": {
+    "Valmo": 119,
+    "Delhivery": 69,
+    "Shadowfax": 59,
+    "UNKNOWN": 34
+  },
+  "2026-06-13": {
+    "Shadowfax": 68,
+    "Valmo": 162,
+    "Delhivery": 115,
+    "UNKNOWN": 45
+  },
+  "2026-06-14": {
+    "Delhivery": 141,
+    "UNKNOWN": 60,
+    "Valmo": 193,
+    "Shadowfax": 78
+  },
+  "2026-06-15": {
+    "Valmo": 207,
+    "Shadowfax": 91,
+    "Delhivery": 159,
+    "UNKNOWN": 37
+  },
+  "2026-06-16": {
+    "Shadowfax": 90,
+    "Valmo": 177,
+    "UNKNOWN": 27,
+    "Delhivery": 104
+  },
+  "2026-06-17": {
+    "Delhivery": 128,
+    "Valmo": 185,
+    "UNKNOWN": 47,
+    "Shadowfax": 84
+  },
+  "2026-06-18": {
+    "Shadowfax": 68,
+    "Valmo": 129,
+    "UNKNOWN": 44,
+    "Delhivery": 84
+  },
+  "2026-06-19": {
+    "Valmo": 157,
+    "UNKNOWN": 40,
+    "Delhivery": 97,
+    "Shadowfax": 62
+  },
+  "2026-06-20": {
+    "UNKNOWN": 32,
+    "Delhivery": 67,
+    "Valmo": 139,
+    "Shadowfax": 66
+  },
+  "2026-06-21": {
+    "Valmo": 146,
+    "UNKNOWN": 43,
+    "Shadowfax": 76,
+    "Delhivery": 89
+  },
+  "2026-06-22": {
+    "Valmo": 155,
+    "UNKNOWN": 48,
+    "Shadowfax": 88,
+    "Delhivery": 69
+  },
+  "2026-06-23": {
+    "UNKNOWN": 47,
+    "Shadowfax": 85,
+    "Valmo": 142,
+    "Delhivery": 84
+  },
+  "2026-06-24": {
+    "Delhivery": 92,
+    "Valmo": 154,
+    "UNKNOWN": 45,
+    "Shadowfax": 90
+  },
+  "2026-06-25": {
+    "UNKNOWN": 45,
+    "Valmo": 176,
+    "Shadowfax": 96,
+    "Delhivery": 100
+  },
+  "2026-06-26": {
+    "Valmo": 179,
+    "UNKNOWN": 44,
+    "Shadowfax": 82,
+    "Delhivery": 95
+  },
+  "2026-06-27": {
+    "Delhivery": 83,
+    "Valmo": 193,
+    "Shadowfax": 112,
+    "UNKNOWN": 71
+  },
+  "2026-06-28": {
+    "Delhivery": 76,
+    "Shadowfax": 115,
+    "UNKNOWN": 52,
+    "Valmo": 182
+  },
+  "2026-06-29": {
+    "Delhivery": 124,
+    "Valmo": 222,
+    "UNKNOWN": 57,
+    "Shadowfax": 108
+  },
+  "2026-06-30": {
+    "UNKNOWN": 75,
+    "Valmo": 218,
+    "Shadowfax": 125,
+    "Delhivery": 109
+  },
+  "2026-07-01": {
+    "Delhivery": 101,
+    "UNKNOWN": 37,
+    "Shadowfax": 93,
+    "Valmo": 192
+  },
+  "2026-07-02": {
+    "UNKNOWN": 122,
+    "Shadowfax": 182,
+    "Delhivery": 174,
+    "Valmo": 382
+  },
+  "2026-07-03": {
+    "Delhivery": 102,
+    "Shadowfax": 89,
+    "Valmo": 207,
+    "UNKNOWN": 47
+  },
+  "2026-07-04": {
+    "Valmo": 238,
+    "Delhivery": 80,
+    "UNKNOWN": 51,
+    "Shadowfax": 109
+  },
+  "2026-07-05": {
+    "Valmo": 308,
+    "Shadowfax": 146,
+    "Delhivery": 128,
+    "UNKNOWN": 71
+  },
+  "2026-07-06": {
+    "Valmo": 134,
+    "UNKNOWN": 78,
+    "Delhivery": 109,
+    "Shadowfax": 187
+  },
+  "2026-07-07": {
+    "Valmo": 175,
+    "UNKNOWN": 31,
+    "Shadowfax": 79,
+    "Delhivery": 75
+  },
+  "2026-07-08": {
+    "UNKNOWN": 42,
+    "Valmo": 163,
+    "Shadowfax": 80,
+    "Delhivery": 93
+  },
+  "2026-07-09": {
+    "UNKNOWN": 38,
+    "Valmo": 167,
+    "Delhivery": 62,
+    "Shadowfax": 86
+  },
+  "2026-07-10": {
+    "Valmo": 128,
+    "Shadowfax": 57,
+    "UNKNOWN": 44,
+    "Delhivery": 57
+  },
+  "2026-07-11": {
+    "Valmo": 120,
+    "Shadowfax": 41,
+    "UNKNOWN": 25,
+    "Delhivery": 35
+  },
+  "2026-07-12": {
+    "Valmo": 145,
+    "Shadowfax": 67,
+    "UNKNOWN": 35,
+    "Delhivery": 53
+  },
+  "2026-07-13": {
+    "Valmo": 147,
+    "Shadowfax": 61,
+    "UNKNOWN": 34,
+    "Delhivery": 40
+  },
+  "2026-07-14": {
+    "Shadowfax": 39,
+    "UNKNOWN": 39,
+    "Valmo": 108,
+    "Delhivery": 37
+  },
+  "2026-07-15": {
+    "UNKNOWN": 27,
+    "Shadowfax": 40,
+    "Delhivery": 48,
+    "Valmo": 101
+  },
+  "2026-07-16": {
+    "UNKNOWN": 34,
+    "Shadowfax": 58,
+    "Valmo": 140,
+    "Delhivery": 38
+  },
+  "2026-07-17": {
+    "UNKNOWN": 46,
+    "Valmo": 151,
+    "Shadowfax": 67,
+    "Delhivery": 54
+  },
+  "2026-07-18": {
+    "Valmo": 138,
+    "Shadowfax": 58,
+    "UNKNOWN": 29,
+    "Delhivery": 29
+  },
+  "2026-07-19": {
+    "Delhivery": 55,
+    "Shadowfax": 92,
+    "Valmo": 275,
+    "UNKNOWN": 33
+  },
+  "2026-07-20": {
+    "Valmo": 227,
+    "UNKNOWN": 25,
+    "Shadowfax": 88,
+    "Delhivery": 42
+  },
+  "2026-07-21": {
+    "Valmo": 163,
+    "UNKNOWN": 35,
+    "Delhivery": 35,
+    "Shadowfax": 77
+  },
+  "2026-07-22": {
+    "Valmo": 281,
+    "Shadowfax": 120,
+    "Delhivery": 70,
+    "UNKNOWN": 42
+  },
+  "2026-07-23": {
+    "Valmo": 223,
+    "Delhivery": 74,
+    "Shadowfax": 84,
+    "UNKNOWN": 44
+  },
+  "2026-07-24": {
+    "UNKNOWN": 42,
+    "Valmo": 235,
+    "Delhivery": 68,
+    "Shadowfax": 103
+  },
+  "2026-07-25": {
+    "Valmo": 206,
+    "Delhivery": 59,
+    "UNKNOWN": 40,
+    "Shadowfax": 68
+  }
+}
